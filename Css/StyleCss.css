@@ -21,8 +21,38 @@ body {
 
 #logo {
 
-    width: 150px;;
+    width: 150px;
    
+}
+
+.nav-link{
+
+    color: black;
+}
+ 
+.nav-link:hover {
+
+    font-size: 17px;
+    color: orange;
+    transition: 1s;
+    text-shadow: 2px 2px  4px black;
+    text-align: center;
+
+}
+
+
+.btn:hover{
+
+
+border-color: red;
+color: blue;
+text-align: center;
+transition:1s;
+background-color: green;
+
+
+
+
 }
 
 
