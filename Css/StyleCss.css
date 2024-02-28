@@ -1,6 +1,8 @@
 body {
 
-    font-family: 'roboto',sans-serif;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
@@ -19,6 +21,16 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
 #logo {
 
     width: 150px;
@@ -33,22 +45,54 @@ body {
 .nav-link:hover {
 
     font-size: 17px;
-    color: orange;
-    transition: 1s;
+    font-style: bold;
+    transition: 0.5s linear;
     text-shadow: 2px 2px  4px black;
     text-align: center;
 
 }
 
 
+
+.RedesSociaisNav{
+
+    width: 40px;
+   padding: 5px;
+
+}
+
+
+
+
+
+.RedesSociaisNav:hover{
+    transition: 0.2s linear;
+    width: 45px;
+    
+
+
+}
+
+
+.btn{
+
+    border: black 1.5px solid;
+    border-radius: 10px;
+}
+
+
 .btn:hover{
 
 
-border-color: red;
-color: blue;
+
+color: black;
 text-align: center;
 transition:1s;
-background-color: green;
+background-color:rgba(134, 136, 255, 0.432);
+box-shadow:5px 5px   5px black ;
+border-radius: 10px;
+border: solid rgba(0, 0, 0, 0.178) 1px;
+
 
 
 
